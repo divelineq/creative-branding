@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -55,4 +55,96 @@ body {
   background: url(img/arrow-down.png) center no-repeat;
   height: 100px;
   margin-top: 100px;
+}
+
+.nav {
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.nav_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ada074;
+}
+
+.nav_link > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+
+.nav_link > a:hover {
+  color: #ada074;
+  font-weight: 800;
+}
+
+.onepage > h1 {
+  font-size: 30px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.about > h1 {
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  display: inline;
+  padding-bottom: 30px;
+}
+
+.about > p {
+  color: #bcbcbc;
+  padding-top: 50px;
+}
+
+.block_nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.block_nav > div {
+  text-align: center;
+  padding-top: 50px;
+}
+.respon {
+  background: url(img/icons/responsive.png) center no-repeat;
+}
+.respon > h1 {
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+.respon > p {
+  font-size: 16px;
+}
+
+.minimal {
+  background: url(img/icons/minimalist.png) center no-repeat;
+}
+
+.minimal > h1 {
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+.minimal > p {
+  font-size: 16px;
+}
+
+.fleeb {
+  background: url(img/icons/free.png) center no-repeat;
+}
+
+.fleeb > h1 {
+  padding-top: 150px;
+  font-size: 35px;
+}
+.fleeb > p {
+  font-size: 16px;
 }
