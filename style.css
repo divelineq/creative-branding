@@ -148,3 +148,54 @@ body {
 .fleeb > p {
   font-size: 16px;
 }
+
+.text_port {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.portfolio {
+  height: 1800px;
+  background: #f3f3f3;
+}
+
+.port_link {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    'port_link1 port_link2 port_link3'
+    'port_link4 port_link5 port_link6'
+    'port_link7 port_link8 port_link9'
+    'port_link10 port_link11 .';
+  text-align: center;
+}
+
+.port_link1,
+.port_link2,
+.port_link3 {
+  margin-top: 150px;
+}
+
+.batt_read {
+  text-align: center;
+  padding-top: 110px;
+}
+.readd {
+  border: 2px solid black;
+  padding: 10px 40px;
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.readd:hover {
+  background: black;
+  color: white;
+  transition: 0.3s linear;
+}
