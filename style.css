@@ -199,3 +199,25 @@ body {
   color: white;
   transition: 0.3s linear;
 }
+
+.partners {
+  background: url(img/background/partners.jpg) center no-repeat;
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+
+.text_partners {
+  margin: 0;
+  padding-top: 100px;
+}
+
+.img_partners {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  padding-top: 70px;
+}
