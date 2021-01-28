@@ -221,3 +221,41 @@ body {
   max-width: 600px;
   padding-top: 70px;
 }
+
+.footer {
+  height: 300px;
+  background: #3c3c3c;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  background: url(img/logo-footer.png) center no-repeat;
+  margin-top: 44px;
+}
+
+.footer_text {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer_text > a {
+  color: #a4a4a4;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer_text > a:hover {
+  color: white;
+}
+
+.footer_ft {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  color: #767676;
+}
